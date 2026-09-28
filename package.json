@@ -1,0 +1,27 @@
+{
+  "name": "facial-recognition",
+  "version": "1.0.0",
+  "description": "standalone facial recognition",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "tsx test.ts",
+    "recognize": "tsx test.ts",
+    "enroll": "tsx src/enroll.ts",
+    "download-models": "tsx scripts/download-models.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "canvas": "^2.11.2",
+    "face-api.js": "^0.22.2",
+    "sharp": "^0.33.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

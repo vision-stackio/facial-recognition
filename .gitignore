@@ -1,0 +1,9 @@
+node_modules/
+models/
+dist/
+*.log
+.DS_Store
+package-lock.json
+bun.lock
+bun.lockb
+*.tsbuildinfo
