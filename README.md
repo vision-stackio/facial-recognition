@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-Standalone face recognition pipeline inspired by Vision's robot brain — enroll faces, match a query image, multi-frame voting to CONFIRMED.
+Standalone face recognition pipeline inspired by Vision's robot brain enrolls faces, match a query image, multi-frame voting to CONFIRMED.
 </p>
 
 > **Note:** This is a pure TypeScript demo. It runs with **no native dependencies** (no `canvas` build). Default mode uses deterministic MOCK embeddings so install and tests work on Windows, WSL, and Bun. Same photo content always produces the same vector, so matching is reliable for learning the pipeline.
@@ -73,6 +73,12 @@ Works from:
 No `.env` required. No API keys. No model download required for the default MOCK path.
 
 <br/>
+
+## Download Models
+
+```bash
+npm run download-models
+```
 
 ## Run the test
 
